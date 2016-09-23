@@ -24,7 +24,32 @@ public int countPositive (int[] x)
 
 Answer the following questions: (1 point each)
 a) Identify the fault.
+
+`if (x[i] >= 0)` should be `if (x[i] > 0)`
+
 b) Identify a test case that does NOT execute the fault.
+
+```
+test: x=[] Expected = 0
+```
+
 c) Identify a test case that executes the fault, but does not result in an error state.
+
+```
+test:  x=[-4, 2, 0, 2]
+       Expected = 2
+```
+
 d) Identify a test case that results in an error, but not a failure. (Hint: Error results in failure if not handled by the program)
+
+```
+test: x=null
+``` 
+
+If `x` is null, then there will be a thrown error;
+
 e) For the given test case in the textbox, identify the first error state during runtime. Describe the complete state including the values of each of the variables, expected and actual results.
+
+input: x = [0]
+actual: count = 1
+expected: return 0

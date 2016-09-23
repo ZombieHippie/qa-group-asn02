@@ -35,5 +35,4 @@ public class LocalUser extends PolicyUser{ // Subclass
 	public static void printUserDetails (){// changed signature
 		System.out.println("This is a test message inside LocalUser class");
 	}
-	
 }
