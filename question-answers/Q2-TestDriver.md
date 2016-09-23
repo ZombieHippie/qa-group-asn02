@@ -15,6 +15,14 @@ Expected console output from the driver:
 3224410 is a local prepaid user
 3224420 is a local prepaid user
 b) Answer the following questions based on Q2a: (3 Points)
-i. Identify any debugging strategy you used. 
+i. Identify any debugging strategy you used.
+
+Brute force.
+
 ii. Explain why did you use/choose that debugging strategy. 
+
+Because, it was going to work the first time we tried it, and it was a simple problem.
+
 iii. Which other debugging strategy could be used?
+
+Backtracking.
