@@ -67,12 +67,12 @@ public class TestDriverM {
 		TestDriverM td = new TestDriverM();
 		// get input here
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter the path for the file you would like to process (press Enter if you will be using the file in the same path as TestDriverM):");
+		System.out.println("Please enter the path for the file you would like to process (press Enter if you will be using the file in the spec folder):");
 		String path = sc.nextLine();
 		sc.close();
 		System.out.println(path);
 		if (path.isEmpty()) {
-			path = "./src/csc455/fa16/g08/asn02/jhM/user.txt";
+			path = "./spec/user.txt";
 		}
 		BufferedReader br;
 		String[] input = new String[25];
